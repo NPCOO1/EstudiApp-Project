@@ -30,6 +30,11 @@ header {
 }
 .card {
     background: white;
+    .btn-download:hover {
+    background-color: #d80256;
+    transform: scale(1.05);
+    transition: 0.3s;
+}
     padding: 20px;
     border-radius: 15px;
     width: 250px;
