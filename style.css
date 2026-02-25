@@ -47,3 +47,10 @@ header {
     width: 250px;
     box-shadow: 0 2px 10px rgba(0,0,0,0.1);
 }
+.patch-notes { padding: 40px 20px; background: #1a1a2e; color: white; border-radius: 20px; margin: 20px; text-align: left; }
+.update-card { background: rgba(255, 255, 255, 0.1); padding: 20px; border-left: 5px solid #03dac5; }
+.version { background: #6200ee; padding: 5px 10px; border-radius: 5px; font-weight: bold; }
+.fix { color: #ff5252; font-weight: bold; font-size: 0.8em; }
+.new { color: #03dac5; font-weight: bold; font-size: 0.8em; }
+.update-list { list-style: none; padding: 0; }
+.update-list li { margin: 10px 0; border-bottom: 1px solid #333; padding-bottom: 5px; }
