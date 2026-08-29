@@ -3,63 +3,235 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Skotady - Organiza tus clases</title>
+    <title>Skotady — Estudia más inteligente</title>
     <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/png" href="Skotady.png">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <h1>Skotady 📚</h1>
-        <p>Toma fotos, organiza por horario y estudia con Flashcards.</p>
-        <a href="Skotady.apk" class="btn-download">Descargar APK</a>
-    </header>
 
-    <section class="features">
-        <div class="card">
-            <h3>📂 Orden Automático</h3>
-            <p>Tus fotos se guardan en carpetas por materia según tu hora de clase.</p>
+    <nav class="navbar">
+        <div class="nav-inner">
+            <span class="nav-logo">Skotady</span>
+            <a href="Skotady.apk" class="nav-btn">Descargar APK</a>
         </div>
-        <div class="card">
-            <h3>🔒 Privacidad</h3>
-            <p>Fotos invisibles en la galería gracias a la extensión .estudi.</p>
+    </nav>
+
+    <section class="hero">
+        <div class="hero-inner">
+            <span class="badge">Beta · Android</span>
+            <h1>Estudia más inteligente,<br>no más duro.</h1>
+            <p class="hero-sub">Toma fotos en clase, genera flashcards con IA y repasa con un tutor que se adapta a ti. Todo sin internet.</p>
+            <div class="hero-actions">
+                <a href="Skotady.apk" class="btn-primary">Descargar APK gratis</a>
+                <a href="#features" class="btn-ghost">Ver funciones ↓</a>
+            </div>
+            <p class="hero-note">Requiere Android 8.0 o superior · Gratis durante la beta</p>
+        </div>
+        <div class="hero-visual">
+            <div class="phone-frame">
+                <div class="phone-screen">
+                    <div class="mock-topbar">
+                        <span>Skotady 🔥</span>
+                        <span class="mock-streak">12 días</span>
+                    </div>
+                    <div class="mock-card">
+                        <div class="mock-label">Nivel 4</div>
+                        <div class="mock-xp">320 XP</div>
+                        <div class="mock-bar"><div class="mock-fill"></div></div>
+                    </div>
+                    <div class="mock-card accent">
+                        <div class="mock-label">Meta del día 📸</div>
+                        <div class="mock-bar green"><div class="mock-fill-green"></div></div>
+                        <div class="mock-meta">2 de 2 fotos ✅</div>
+                    </div>
+                    <div class="mock-tutor">
+                        <div class="mock-q">¿Qué es la comunicología?</div>
+                        <div class="mock-options">
+                            <div class="opt correct">Ciencia que estudia la comunicación ✓</div>
+                            <div class="opt">Arte de hablar en público</div>
+                            <div class="opt">Historia de los medios</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
-    
-<section class="how-it-works">
-    <h2>¿Cómo usar Skotady? 🚀</h2>
-    <div class="steps">
-        <div class="step"><span>1</span><p>Importa tu horario de clases.</p></div>
-        <div class="step"><span>2</span><p>Toma fotos a la pizarra.</p></div>
-        <div class="step"><span>3</span><p>¡Listo! La app las ordena sola por curso.</p></div>
-    </div>
-</section>
-    
-<section class="faq">
-    <h3>Preguntas Frecuentes</h3>
-    <details>
-        <summary>¿Por qué no veo mis fotos en la galería normal?</summary>
-        <p>Por seguridad y orden. EstudiApp las oculta para que no se mezclen con tus fotos personales.</p>
-    </details>
-</section>
-    
-<section class="patch-notes">
-    <h2>Notas de la Versión 🚀</h2>
-    <div class="update-card">
-        <div class="update-header">
-            <span class="version">v1.0.1</span>
-            <span class="date">Feb 2026</span>
-        </div>
-        <ul class="update-list">
-            <li><span class="fix">SOLUCIONADO</span> Error que impedía visualizar imágenes en el visor interno.</li>
-            <li><span class="new">NUEVO</span> Sistema de extensión <code>.estudi</code> para máxima privacidad.</li>
-            <li><span class="fix">MEJORA</span> Optimización del zoom en fotos de alta resolución.</li>
-        </ul>
-    </div>
-</section>
 
+    <section class="features" id="features">
+        <div class="section-inner">
+            <h2>Todo lo que necesitas para estudiar</h2>
+            <p class="section-sub">Diseñado para estudiantes que quieren aprender de verdad, no solo repasar.</p>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon purple">📸</div>
+                    <h3>Cámara inteligente</h3>
+                    <p>Toma fotos a la pizarra y se guardan automáticamente en la carpeta de tu materia según el horario.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon pink">🧠</div>
+                    <h3>Flashcards con IA</h3>
+                    <p>Sube una foto o pega texto y Gemini genera tarjetas de estudio con preguntas, respuestas y distractores.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon teal">🎓</div>
+                    <h3>Modo Tutor</h3>
+                    <p>Repasa con selección múltiple, verdadero/falso y completar espacios. El algoritmo SM-2 decide cuándo repetir cada tarjeta.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon orange">🔥</div>
+                    <h3>Racha y XP</h3>
+                    <p>Gana XP por cada sesión, sube de nivel y mantén tu racha diaria. Estudiar se vuelve un hábito.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon blue">✈️</div>
+                    <h3>100% offline</h3>
+                    <p>Tu horario, mazos y progreso del Tutor viven en tu celular. Sin internet funciona igual.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon gray">🔒</div>
+                    <h3>Privacidad total</h3>
+                    <p>Las fotos de apuntes se guardan con extensión .estudi — invisibles en tu galería normal.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="how-it-works">
+        <div class="section-inner">
+            <h2>¿Cómo funciona?</h2>
+            <p class="section-sub">De la pizarra a dominarlo en 3 pasos.</p>
+            <div class="steps">
+                <div class="step">
+                    <div class="step-num">1</div>
+                    <h4>Registra tu horario</h4>
+                    <p>Ingresa tus materias con horario y día. La app detecta automáticamente en qué clase estás.</p>
+                </div>
+                <div class="step-arrow">→</div>
+                <div class="step">
+                    <div class="step-num">2</div>
+                    <h4>Toma fotos o pega texto</h4>
+                    <p>La IA convierte tus apuntes en flashcards listas para estudiar.</p>
+                </div>
+                <div class="step-arrow">→</div>
+                <div class="step">
+                    <div class="step-num">3</div>
+                    <h4>Entra al Modo Tutor</h4>
+                    <p>Repasa con preguntas variadas. El algoritmo decide qué tarjetas necesitas repasar más.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="install-guide">
+        <div class="section-inner">
+            <h2>¿Cómo instalar el APK?</h2>
+            <p class="section-sub">La app aún no está en Play Store. Instálala en 3 pasos.</p>
+            <div class="install-steps">
+                <div class="install-step">
+                    <span class="install-num">1</span>
+                    <div>
+                        <strong>Descarga el APK</strong>
+                        <p>Toca el botón de descarga desde tu celular Android.</p>
+                    </div>
+                </div>
+                <div class="install-step">
+                    <span class="install-num">2</span>
+                    <div>
+                        <strong>Permite fuentes desconocidas</strong>
+                        <p>Ve a Ajustes → Seguridad → Instalar apps desconocidas y actívalo para tu navegador.</p>
+                    </div>
+                </div>
+                <div class="install-step">
+                    <span class="install-num">3</span>
+                    <div>
+                        <strong>Instala y listo</strong>
+                        <p>Abre el archivo descargado e instala. Inicia sesión con tu cuenta Google.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="faq">
+        <div class="section-inner">
+            <h2>Preguntas frecuentes</h2>
+            <div class="faq-list">
+                <details>
+                    <summary>¿Por qué no veo mis fotos en la galería?</summary>
+                    <p>Por diseño. Skotady guarda los apuntes con extensión .estudi para que no se mezclen con tus fotos personales. Puedes verlas desde la app en la sección Horario → Carpetas.</p>
+                </details>
+                <details>
+                    <summary>¿Necesito internet para estudiar?</summary>
+                    <p>No. Tu horario, mazos y el Modo Tutor funcionan 100% offline. Solo necesitas internet para crear flashcards nuevas con IA o para sincronizar tu XP y racha.</p>
+                </details>
+                <details>
+                    <summary>¿Es gratis?</summary>
+                    <p>Sí, completamente gratis durante la beta. No hay compras dentro de la app ni suscripciones.</p>
+                </details>
+                <details>
+                    <summary>¿Mis datos están seguros?</summary>
+                    <p>El login es con tu cuenta Google via Firebase. Las fotos se guardan localmente en tu celular, nunca se suben a la nube.</p>
+                </details>
+                <details>
+                    <summary>¿En qué dispositivos funciona?</summary>
+                    <p>Cualquier Android con versión 8.0 (Oreo) o superior. No disponible en iOS por ahora.</p>
+                </details>
+            </div>
+        </div>
+    </section>
+
+    <section class="patch-notes">
+        <div class="section-inner">
+            <h2>Notas de versión</h2>
+            <div class="updates">
+
+                <div class="update-card">
+                    <div class="update-header">
+                        <span class="version-badge">v1.1</span>
+                        <span class="update-date">Ago 2026</span>
+                    </div>
+                    <ul class="update-list">
+                        <li><span class="tag new">NUEVO</span> Modo Tutor con 3 tipos de preguntas: selección múltiple, verdadero/falso y completar.</li>
+                        <li><span class="tag new">NUEVO</span> Gemini genera distractores automáticamente al crear flashcards.</li>
+                        <li><span class="tag new">NUEVO</span> Modo Tutor 100% offline — datos guardados en Room local.</li>
+                        <li><span class="tag new">NUEVO</span> Barra lateral con acceso rápido al Modo Tutor.</li>
+                        <li><span class="tag fix">MEJORA</span> Validación fuzzy mejorada para respuestas matemáticas y con tildes.</li>
+                        <li><span class="tag fix">MEJORA</span> Botón de menú y cambio de tema ahora funcionan correctamente.</li>
+                    </ul>
+                </div>
+
+                <div class="update-card">
+                    <div class="update-header">
+                        <span class="version-badge old">v1.0.1</span>
+                        <span class="update-date">Feb 2026</span>
+                    </div>
+                    <ul class="update-list">
+                        <li><span class="tag fix">SOLUCIONADO</span> Error al visualizar imágenes en el visor interno.</li>
+                        <li><span class="tag new">NUEVO</span> Sistema de extensión .estudi para privacidad de fotos.</li>
+                        <li><span class="tag fix">MEJORA</span> Optimización del zoom en fotos de alta resolución.</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="cta">
+        <div class="cta-inner">
+            <h2>Empieza a estudiar hoy</h2>
+            <p>Gratis durante la beta. Sin anuncios. Sin trucos.</p>
+            <a href="Skotady.apk" class="btn-primary large">Descargar Skotady APK</a>
+            <p class="cta-note">Android 8.0+ · Gratis</p>
+        </div>
+    </section>
 
     <footer>
-        <p>Creado por Erick Sebastian L. &copy; 2026</p>
+        <div class="footer-inner">
+            <span class="footer-logo">Skotady</span>
+            <span class="footer-copy">Creado por Erick Sebastian L. · 2026</span>
+        </div>
     </footer>
+
 </body>
 </html>
